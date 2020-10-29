@@ -2,10 +2,6 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
-.navbar {
-  height: 72px;
-}
-
 .navbar-brand {
   height: 45px;
   width: 170px;
@@ -118,6 +114,7 @@ body {
   font-size: 48px;
   font-weight: bold;
 }
+
 .product hr {
   height: 5px;
   background-color: #f5a630;
@@ -161,6 +158,7 @@ body {
   font-size: 48px;
   font-weight: bold;
 }
+
 .service hr {
   height: 5px;
   background-color: #f5a630;
@@ -170,6 +168,7 @@ body {
 .content-service {
   margin-top: 50px;
 }
+
 .content-service img {
   float: left;
   height: 70px;
@@ -225,6 +224,7 @@ body {
   padding: 30px;
   border-radius: 8px;
 }
+
 .content-testi .testi3 p {
   margin-top: 50px;
   width: 400px;
@@ -238,6 +238,7 @@ body {
 .cta {
   text-align: center;
 }
+
 .content-cta h1 {
   text-align: center;
   font-size: 48px;
@@ -268,6 +269,7 @@ body {
   margin-top: 20px;
   text-align: center;
 }
+
 .sub-footer p {
   margin-top: 10px;
 }
@@ -278,28 +280,35 @@ body {
 
 
 
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
 
-  .img1-about{
+  .img1-about {
     display: none;
   }
-  .img2-about{
+
+  .img2-about {
     display: none;
   }
-  .testi2{
+
+  .testi2 {
     display: none;
   }
-  .testi3{
+
+  .testi3 {
     display: none;
   }
-  .text-about{
+
+  .text-about {
     margin-top: -50px;
   }
-  .product{
+
+  .product {
     margin-top: -150px;
   }
-.content-cta h1{
-  font-size: 30px;
-}
+
+  .content-cta h1 {
+    font-size: 30px;
+  }
 
 }
+
