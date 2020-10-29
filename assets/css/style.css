@@ -190,67 +190,83 @@ body {
 }
 
 .content-testi h1 {
-    position: relative;
+  position: relative;
   padding-top: 120px;
   font-size: 48px;
   font-weight: bold;
   line-height: 64px;
 }
 
-.content-testi p{
-    font-size: 18px;
-    margin-top: 10px;
+.content-testi p {
+  font-size: 18px;
+  margin-top: 10px;
 }
 
-.content-testi img{
-    position: absolute;
-    margin-top: 50px;
+.content-testi img {
+  position: absolute;
+  margin-top: 50px;
 }
 
-.testi1 p{
-    margin-top: 30px;
-    width: 350px;
-    line-height: 32px;
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    
+.testi1 p {
+  margin-top: 30px;
+  width: 350px;
+  line-height: 32px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
 }
 
-.content-testi .testi2 p{
-    margin-top: 150px;
-    /* width: 350px; */
-    line-height: 32px;
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
+.content-testi .testi2 p {
+  margin-top: 150px;
+  /* width: 350px; */
+  line-height: 32px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
 }
-.content-testi .testi3 p{
-    margin-top: 50px;
-    width: 400px;
-    line-height: 32px;
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
+.content-testi .testi3 p {
+  margin-top: 50px;
+  width: 400px;
+  line-height: 32px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
 }
 
 /* cta */
-.cta{
-    text-align: center;
+.cta {
+  text-align: center;
 }
-.content-cta h1{
-    text-align: center;
-    font-size: 48px;
-    font-weight: bolder;
-    margin-top: 40px;
+.content-cta h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-top: 40px;
 }
 
-.btn-cta   {
-    margin-top: 45px;
-    color: white;
-    background-color: #f5a630;
-    border-radius: 8px;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
+.btn-cta {
+  margin-top: 45px;
+  color: white;
+  background-color: #f5a630;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* footer */
+.content-footer {
+  margin-top: 50px;
+}
+
+.content-footer p {
+  font-size: 14px;
+}
+
+.sub-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+.sub-footer p {
+  margin-top: 10px;
 }
