@@ -1,0 +1,75 @@
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.navbar {
+  height: 72px;
+}
+
+.navbar-brand {
+  height: 45px;
+  width: 170px;
+  margin-top: -25px;
+}
+
+.navbar li a {
+  color: black;
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-buy-now {
+  margin-left: 8px;
+  color: white;
+  background-color: #f5a630;
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-buy-now:hover {
+  color: #eaeaea;
+}
+
+.jumbotron {
+  margin-top: -71px;
+  background-image: url("../images/bg-hero.png");
+  width: 100%;
+  height: 800px;
+  background-color: white;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.content-text h1 {
+  font-size: 72px;
+  font-weight: bolder;
+  margin-top: 179px;
+  line-height: 98px;
+}
+
+.content-text p {
+  margin-top: 16px;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.btn-get-started {
+  margin-top: 32px;
+  color: white;
+  background-color: #f5a630;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-get-started:hover {
+  color: #eaeaea;
+}
+
+.content-image img {
+  width: 774px;
+}
