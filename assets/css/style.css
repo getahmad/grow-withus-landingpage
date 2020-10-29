@@ -79,6 +79,8 @@ body {
   text-align: center;
   font-size: 48px;
   font-weight: bold;
+  padding-top: 80px;
+  margin-top: -100px;
 }
 
 .about hr {
@@ -110,7 +112,8 @@ body {
 
 /* .product */
 .product h1 {
-  margin-top: 200px;
+  margin-top: 120px;
+  padding-top: 80px;
   text-align: center;
   font-size: 48px;
   font-weight: bold;
@@ -152,7 +155,7 @@ body {
 
 /* services */
 .service h1 {
-  margin-top: 60px;
+  padding-top: 80px;
   text-align: center;
   font-size: 48px;
   font-weight: bold;
@@ -180,7 +183,8 @@ body {
 
 /* testimonial */
 .testimonial {
-  margin-top: 70px;
+  margin-top: 50px;
+  padding-top: 20px;
   background-color: #ffc978;
   height: 800px;
 }
@@ -223,7 +227,7 @@ body {
 }
 .content-testi .testi3 p{
     margin-top: 50px;
-    width: 350px;
+    width: 400px;
     line-height: 32px;
     background-color: white;
     padding: 30px;

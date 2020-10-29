@@ -25,9 +25,11 @@
     <title>Grow With Us</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
+    <nav
+      class="navbar navbar-expand-lg navbar-light navbar-fixed-top fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#home">
           <img src="assets/images/brand-grow.png" alt="" />
         </a>
         <button
@@ -45,42 +47,43 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="#about"
                 >About us <span class="sr-only"></span
               ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="#product">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#service">Service</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tertimonials</a>
+              <a class="nav-link" href="#testimonial">Tertimonial</a>
             </li>
             <li>
-              <button type="button" class="btn btn-buy-now">Buy Now</button>
+              <a href="#product">
+                <button type="button" class="btn btn-buy-now">Buy Now</button>
+              </a>
             </li>
           </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
-    <div class="jumbotron">
+    <div class="jumbotron" id="home">
       <div class="container">
         <div class="content">
-          <div class="col-lg-6 content-text" data-aos="fade-up-right" data-aos-duration="1000">
-            <h1 class="display-4">
-              Start to plant with us
-            </h1>
-            <p class="lead" >
+          <div
+            class="col-lg-6 content-text"
+            data-aos="fade-up-right"
+            data-aos-duration="1000"
+          >
+            <h1 class="display-4">Start to plant with us</h1>
+            <p class="lead">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio
               in et, lectus sit lorem id integer.
             </p>
-            <a
-              class="btn btn-get-started btn-lg"
-              href="#"
-              role="button"
+            <a class="btn btn-get-started btn-lg" href="#" role="button"
               >Get Started</a
             >
           </div>
@@ -91,19 +94,27 @@
       </div>
     </div>
 
-    <div class="container about">
+    <div class="container about" id="about">
       <h1 data-aos="flip-left">About Us</h1>
       <hr />
       <div class="about-content row">
-        <div class="col-lg-6 img-about" data-aos="fade-up-right" data-aos-duration="1000">
+        <div
+          class="col-lg-6 img-about"
+          data-aos="fade-up-right"
+          data-aos-duration="1000"
+        >
           <img
             class="img1-about offset-lg-1"
-            src="/assets/images/about1.png"
+            src="assets/images/about1.png"
             alt=""
           />
-          <img class="img2-about" src="/assets/images/about2.png" alt="" />
+          <img class="img2-about" src="assets/images/about2.png" alt="" />
         </div>
-        <div class="col-lg-6 text-about" data-aos="fade-up-left" data-aos-duration="1000">
+        <div
+          class="col-lg-6 text-about"
+          data-aos="fade-up-left"
+          data-aos-duration="1000"
+        >
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum
             aliquam vel bibendum aliquam turpis egestas adipiscing fermentum
@@ -116,24 +127,24 @@
       </div>
     </div>
 
-    <div class="container product">
-      <h1>Products</h1>
+    <div class="container product" id="product">
+      <h1 data-aos="flip-left">Products</h1>
       <hr />
       <div class="product-content row">
         <div class="col-lg-3" data-aos="fade-up" data-aos-duration="500">
-          <img src="/assets/images/tools.png" alt="" />
+          <img src="assets/images/tools.png" alt="" />
           <a href="">Planting Tools</a>
         </div>
         <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
-          <img src="/assets/images/chilli.png" alt="" />
+          <img src="assets/images/chilli.png" alt="" />
           <a href="">Chilli Seeds</a>
         </div>
         <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-          <img src="/assets/images/spinach .png" alt="" />
+          <img src="assets/images/spinach .png" alt="" />
           <a href="">Spinach Seeds</a>
         </div>
         <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2000">
-          <img src="/assets/images/tomato.png" alt="" />
+          <img src="assets/images/tomato.png" alt="" />
           <a href="">Tomato Seeds</a>
         </div>
       </div>
@@ -144,34 +155,62 @@
       </div>
     </div>
 
-    <div class="container service">
-      <h1>Service</h1>
+    <div class="container service" id="service">
+      <h1 data-aos="flip-left">Service</h1>
       <hr />
       <div class="row service-row">
-        <div class="col-lg-4 content-service" data-aos="fade-up" data-aos-duration="500">
-          <img src="/assets/images/delevery.png" alt="" />
+        <div
+          class="col-lg-4 content-service"
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
+          <img src="assets/images/delevery.png" alt="" />
           <p>delivery on time</p>
         </div>
-        <div class="col-lg-4 content-service" data-aos="fade-up" data-aos-duration="1000">
-          <img src="/assets/images/teach.png" alt="" />
+        <div
+          class="col-lg-4 content-service"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img src="assets/images/teach.png" alt="" />
           <p>teach you</p>
         </div>
-        <div class="col-lg-4 content-service" data-aos="fade-up" data-aos-duration="1500">
-          <img src="/assets/images/control.png" alt="" />
+        <div
+          class="col-lg-4 content-service"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          <img src="assets/images/control.png" alt="" />
           <p>progress control</p>
         </div>
       </div>
     </div>
 
-    <div class="testimonial">
+    <div class="testimonial" id="testimonial">
       <div class="container">
         <div class="row content-testi">
           <div class="col-lg-6 content-testi">
-            <img src="/assets/images/quote.png" alt="" />
-            <h1 class="offset-lg-1">Real Stories from Real Customers</h1>
-            <p class="offset-lg-1">Get inspired by these stories.</p>
+            <img src="assets/images/quote.png" alt="" />
+            <h1
+              class="offset-lg-1"
+              data-aos="fade-up-right"
+              data-aos-duration="500"
+            >
+              Real Stories from Real Customers
+            </h1>
+            <p
+              class="offset-lg-1"
+              data-aos="fade-up-right"
+              data-aos-duration="1000"
+            >
+              Get inspired by these stories.
+            </p>
             <div class="testi1">
-              <p class="offset-lg-4">
+              <p
+                class="offset-lg-4"
+                data-aos="fade-up-right"
+                data-aos-duration="1500"
+              >
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Explicabo atque neque dolores ad aliquid totam ullam vel
                 accusamus veritatis. Aspernatur quos rerum adipisci tenetur
@@ -183,7 +222,11 @@
             </div>
           </div>
           <div class="col-lg-6 content-testi">
-            <div class="testi2">
+            <div
+              class="testi2"
+              data-aos="fade-up-left"
+              data-aos-duration="1500"
+            >
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Explicabo atque neque dolores ad aliquid totam ullam vel
@@ -193,7 +236,11 @@
                 <span>Bandung</span>
               </p>
             </div>
-            <div class="testi3">
+            <div
+              class="testi3"
+              data-aos="fade-up-left"
+              data-aos-duration="1800"
+            >
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Explicabo atque neque dolores ad aliquid totam ullam vel
@@ -210,8 +257,8 @@
 
     <div class="container cta">
       <div class="cta content-cta">
-        <h1>Still in doubt? interested with us</h1>
-        <h1>Just try it first</h1>
+        <h1 data-aos="flip-left">Still in doubt? interested with us</h1>
+        <h1 data-aos="flip-left">Just try it first</h1>
         <button class="btn btn-cta">Buy Now</button>
       </div>
     </div>
@@ -233,6 +280,7 @@
     <script>
       AOS.init();
     </script>
+
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
