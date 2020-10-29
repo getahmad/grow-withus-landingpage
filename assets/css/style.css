@@ -73,3 +73,180 @@ body {
 .content-image img {
   width: 774px;
 }
+
+/* about */
+.about h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.about hr {
+  height: 5px;
+  background-color: #f5a630;
+  width: 273px;
+}
+
+.about-content {
+  margin-top: 84px;
+}
+
+.img1-about {
+  width: 459px;
+  position: relative;
+}
+
+.img2-about {
+  width: 459px;
+  position: absolute;
+  left: 0px;
+  top: 150px;
+}
+
+.text-about p {
+  line-height: 48px;
+  font-size: 18px;
+}
+
+/* .product */
+.product h1 {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+.product hr {
+  height: 5px;
+  background-color: #f5a630;
+  width: 273px;
+}
+
+.product-content {
+  margin-top: 80px;
+}
+
+.product-content a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 11px;
+  text-decoration: none;
+}
+
+.button-product .btn-product {
+  display: block;
+  text-align: center;
+}
+
+.btn-product {
+  margin-top: 45px;
+  color: white;
+  background-color: #f5a630;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* services */
+.service h1 {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+.service hr {
+  height: 5px;
+  background-color: #f5a630;
+  width: 230px;
+}
+
+.content-service {
+  margin-top: 50px;
+}
+.content-service img {
+  float: left;
+  height: 70px;
+}
+
+.content-service p {
+  padding-left: 110px;
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* testimonial */
+.testimonial {
+  margin-top: 70px;
+  background-color: #ffc978;
+  height: 800px;
+}
+
+.content-testi h1 {
+    position: relative;
+  padding-top: 120px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 64px;
+}
+
+.content-testi p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.content-testi img{
+    position: absolute;
+    margin-top: 50px;
+}
+
+.testi1 p{
+    margin-top: 30px;
+    width: 350px;
+    line-height: 32px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    
+}
+
+.content-testi .testi2 p{
+    margin-top: 150px;
+    /* width: 350px; */
+    line-height: 32px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+.content-testi .testi3 p{
+    margin-top: 50px;
+    width: 350px;
+    line-height: 32px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+/* cta */
+.cta{
+    text-align: center;
+}
+.content-cta h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.btn-cta   {
+    margin-top: 45px;
+    color: white;
+    background-color: #f5a630;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
