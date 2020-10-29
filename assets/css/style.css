@@ -126,6 +126,7 @@ body {
 
 .product-content {
   margin-top: 80px;
+  text-align: center;
 }
 
 .product-content a {
@@ -269,4 +270,36 @@ body {
 }
 .sub-footer p {
   margin-top: 10px;
+}
+
+
+
+
+
+
+
+@media (max-width: 767.98px) { 
+
+  .img1-about{
+    display: none;
+  }
+  .img2-about{
+    display: none;
+  }
+  .testi2{
+    display: none;
+  }
+  .testi3{
+    display: none;
+  }
+  .text-about{
+    margin-top: -50px;
+  }
+  .product{
+    margin-top: -150px;
+  }
+.content-cta h1{
+  font-size: 30px;
+}
+
 }
